@@ -14,7 +14,7 @@ class TodoWidget extends StatelessWidget {
     print("Creato nuovo todo");
     return Row(
       children: [
-        Checkbox(value: todo.isDone, onChanged: null),
+        Checkbox(value: todo.isDone, onChanged: (_) {}),
         Text(todo.title)
       ],
     );
