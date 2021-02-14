@@ -1,6 +1,6 @@
-# sampleProjk
+# TooDoo
 
-A new Flutter project.
+A basic to-do app.
 
 ## Getting Started
 
