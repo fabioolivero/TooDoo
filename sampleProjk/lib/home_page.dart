@@ -25,7 +25,7 @@ class _HomeState extends State<HomePage> {
 
     return Scaffold(
       appBar: AppBar(title: Text("TooDoo"), actions: <Widget>[
-        IconButton(icon: Icon(Icons.settings), onPressed: () => {})
+        IconButton(icon: Icon(Icons.refresh), onPressed: () => {})
       ]),
       body: tabs[_selectedIndex],
       floatingActionButton: FloatingActionButton(

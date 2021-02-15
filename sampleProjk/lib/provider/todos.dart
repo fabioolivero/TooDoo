@@ -6,5 +6,11 @@ class TodosProvider extends ChangeNotifier {
     Todo(title: "Primo", isDone: false),
     Todo(title: "Secondo", isDone: false),
   ];
+
   List<Todo> get todos => _todos.where((todo) => todo.isDone == false).toList();
+
+  void addTodo(Todo todo) {
+    _todos.add(todo);
+    notifyListeners();
+  }
 }
