@@ -1,3 +1,4 @@
 # TooDoo
+Basic to-do app in Flutter, node.js and MongoDB
 
-A basic to-do app.
+![screen](https://github.com/fabioolivero/TooDoo/blob/master/sampleProjk/screen.png)
